@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandIn2.1", "Personkartotek\HandIn2.1.csproj", "{66804545-B161-42BC-894D-AE5A3AA3594B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandIn2.1_Application", "Personkartotek.Application\HandIn2.1_Application.csproj", "{15033AAC-0599-42B2-894A-62426CBA1A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandIn2.2_Relation_Database.Application", "HandIn2.2_Relation_Database.Application\HandIn2.2_Relation_Database.Application.csproj", "{6AB4B648-0245-430D-A6E4-00A8D01178E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handin2.2_DocumentDB.Application", "Handin2.2_DocumentDB.Application\Handin2.2_DocumentDB.Application.csproj", "{612DCA4C-4806-4715-B70B-501DE14B6ADD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66804545-B161-42BC-894D-AE5A3AA3594B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66804545-B161-42BC-894D-AE5A3AA3594B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66804545-B161-42BC-894D-AE5A3AA3594B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66804545-B161-42BC-894D-AE5A3AA3594B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15033AAC-0599-42B2-894A-62426CBA1A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15033AAC-0599-42B2-894A-62426CBA1A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15033AAC-0599-42B2-894A-62426CBA1A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15033AAC-0599-42B2-894A-62426CBA1A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB4B648-0245-430D-A6E4-00A8D01178E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB4B648-0245-430D-A6E4-00A8D01178E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB4B648-0245-430D-A6E4-00A8D01178E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB4B648-0245-430D-A6E4-00A8D01178E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{612DCA4C-4806-4715-B70B-501DE14B6ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{612DCA4C-4806-4715-B70B-501DE14B6ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{612DCA4C-4806-4715-B70B-501DE14B6ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{612DCA4C-4806-4715-B70B-501DE14B6ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0A87148-CB8D-4B32-8A44-10199061F22C}
+	EndGlobalSection
+EndGlobal
