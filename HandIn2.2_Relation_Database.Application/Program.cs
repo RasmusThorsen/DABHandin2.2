@@ -16,16 +16,16 @@ namespace HandIn2._2_Relation_Database.Application
         {
             var adressePrivat = new Adresse {Husnummer = "9E", Vejnavn = "Brendstrupsgårdsvej", Type = "Privat"};
             UnitOfWork uow = new UnitOfWork();
-            //uow.PersonRepository.Insert(new Person{Fornavn = "Nicolai", Efternavn = "Andersen", Email = "TestMail@emial.dk", Type = "Studerende"});
-            //uow.PersonRepository.GetById(0).Telefon.Add(new Telefon{Nummer = "6", Teleselskab = "TDC", Type = "Privat"});
-            //uow.PersonRepository.GetById(0).Adresse.Add(adressePrivat);
-            //uow.PersonRepository.GetById(0).Adresse.Add(new Adresse { Husnummer = "22", Vejnavn = "Finlandsgade", Type = "Skole" });
+            uow.PersonRepository.Insert(new Person { Fornavn = "Nicolai", Efternavn = "Andersen", Email = "TestMail@emial.dk", Type = "Studerende" });
+            uow.PersonRepository.GetById(0).Telefon.Add(new Telefon { Nummer = "6", Teleselskab = "TDC", Type = "Privat" });
+            uow.PersonRepository.GetById(0).Adresse.Add(adressePrivat);
+            uow.PersonRepository.GetById(0).Adresse.Add(new Adresse { Husnummer = "22", Vejnavn = "Finlandsgade", Type = "Skole" });
 
-            //uow.PersonRepository.GetById(1).Telefon.Add(new Telefon{Nummer = "7", Teleselskab = "TDC", Type="Arbejde"});
+            //uow.PersonRepository.GetById(1).Telefon.Add(new Telefon { Nummer = "7", Teleselskab = "TDC", Type = "Arbejde" });
 
-            uow.PersonRepository.GetById(1).Telefon.Add(new Telefon { Nummer = "609", Teleselskab = "TDC", Type = "Privat" });
+            //uow.PersonRepository.GetById(1).Telefon.Add(new Telefon { Nummer = "609", Teleselskab = "TDC", Type = "Privat" });
             //uow.PersonRepository.GetById(0).Adresse.Add(adressePrivat);
-            uow.PersonRepository.GetById(1).Adresse.Add(new Adresse { Husnummer = "22", Vejnavn = "Finlandsgade", Type = "Test" });
+            //uow.PersonRepository.GetById(1).Adresse.Add(new Adresse { Husnummer = "22", Vejnavn = "Finlandsgade", Type = "Test" });
 
             //uow.ByRepository.Insert(new By{Bynavn = "Aarhus", Postnummer = "8000"});
             //uow.ByRepository.GetById(8000).ByAdresses.Add(adressePrivat);

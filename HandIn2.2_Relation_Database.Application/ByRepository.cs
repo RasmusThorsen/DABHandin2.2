@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HandIn2._2_Relation_Database.Application
 {
-    class ByRepository
+    class ByRepository : IRepository<By>
     {
         private PersonKartotekContext context;
 
@@ -46,7 +46,6 @@ namespace HandIn2._2_Relation_Database.Application
             context.SaveChanges();
         }
 
-        //HVAD ER DET?!
         private bool disposed = false;
         protected virtual void Dispose(bool disposing)
         {

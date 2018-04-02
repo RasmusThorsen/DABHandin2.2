@@ -15,7 +15,8 @@ namespace Handin2._2_DocumentDB.Application
         static void Main(string[] args)
         {
             UnitOfWork uow = new UnitOfWork();
-            uow.PersonRepository.CreatePerson(new PersonKartotek.Person {
+            uow.PersonRepository.CreatePerson(new PersonKartotek.Person
+            {
                 Adresses = new PersonKartotek.Adresse[]
                 {
                     new PersonKartotek.Adresse() {
@@ -42,6 +43,7 @@ namespace Handin2._2_DocumentDB.Application
             });
 
             //uow.PersonRepository.DeletePerson("1");
+            //uow.PersonRepository.DeletePerson("2");
             uow.PersonRepository.PrintPerson("1");
 
             Console.ReadKey();
